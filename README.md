@@ -5,7 +5,7 @@ HTML CSS JS
 # Introduction
 This project is Super Hero Hunter App in which we use superheroAPI() to fetch the records and details of all the superheroes along with some additional features. It is built using HTML, CSS, Vanilla Javascript.In this app we have a search bar and sumbit button where you can search any marvel hero and know about them and you can add in your favourite list.
 # Link
-link 
+link  https://pranay7-kr.github.io/Super-Hero-App/
 # Screenshot
 # Home Page
 ![1](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/b9c81182-3c25-47fc-b81f-a3f19205afb6)
