@@ -7,6 +7,14 @@ This project is Super Hero Hunter App in which we use superheroAPI() to fetch th
 # Link
 link 
 # Screenshot
-![2](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/6379f63c-53da-42ba-82c5-fc2a81e65b70)
-![1](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/3cf9133b-1158-4410-a253-7c182b6fb9aa)
+# Home Page
+![1](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/b9c81182-3c25-47fc-b81f-a3f19205afb6)
+# Home Page when u Search
+![2](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/bc212ab1-25fd-4f4b-826b-d0cfdebdd4eb)
+# Home Page when you get result
+![3](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/13742efc-dc33-4cfb-ae76-6437d6bc4db0)
+# More Information Page
+![5](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/a4468e2b-e2ca-4e54-9232-52471c21ff08)
+# Favourite List Page
+![6](https://github.com/Pranay7-kr/Super-Hero-App/assets/122045703/edd2ef59-cfb6-4aac-9f49-e42bca0c6b82)
 
