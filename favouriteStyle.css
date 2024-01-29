@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+
+ /* body */
+body{
+    /* background-color: cyan; */
+    /* min-height: 100%; */
+    background-image: url(logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+ /* header */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar img{
+    height: 60px;
+    width: 20%;
+    margin: 5px;
+}
+
+.navbar button{
+    height: 40px;
+    width: 10%;
+    margin-right: 5px;
+    background-color: rgb(142, 25, 25);
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.navbar button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+  /* main */
+ 
+.favHero{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.card-container{
+    width: 15%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.621);
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+    justify-content: center;
+
+    
+}
+
+.hero-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.img-section{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+}
+.remove-part{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.img-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.removeButton{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.removeButton:hover{
+    background-color: rgb(126, 5, 5);
+}
+
+
+@media screen and (max-width: 678px){
+
+    
+
+    .card-container{
+        width: 40%;
+    }
+
+
+}
+

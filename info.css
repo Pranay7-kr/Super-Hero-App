@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+html{
+    height: 100%;
+}
+
+
+ /* body */
+body{
+    /* background-color: cyan; */
+    min-height: 100%;
+    background-image: url(logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+ /* header */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar img{
+    height: 60px;
+    width: 20%;
+    margin: 5px;
+}
+
+.navbar button{
+    height: 40px;
+    width: 10%;
+    margin-right: 5px;
+    background-color: rgb(142, 25, 25);
+    font-size: 1.4vw;
+}
+
+.navbar button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+  /* main */
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+    margin-top: 10%;
+}
+
+#info-container {
+    background-color: rgba(255, 255, 255, 0.621);
+    width: 60%;
+    height: auto;
+    gap: 15px;
+    padding: 15px 50px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    /* z-index: 10; */
+}
+
+.hero-name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.hero-img-and-more-info {
+    display: flex;
+    gap: 30px;
+}
+
+#image{
+    height: 150px;
+}
+
+.more-info {
+    gap: 15px;
+    font-size: 1.3rem;
+}
+
+.id,.comics,.series,.stories {
+    line-height: 2.2rem;
+    gap: 10px;
+}
+
+.hero-discription{
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.hero-discription b{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.bg-img {
+    z-index: -1;
+}
+
+@media screen and (max-width: 678px){
+
+    
+    
+    .hero-name {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+    .hero-img-and-more-info{
+         flex-direction: column;
+         align-items: center;
+    }
+    .hero-discription{
+         text-align: center;
+         margin-top: 5%;
+    }
+    #info-container{
+         width: 85%;
+         margin-top: auto;
+
+    }
+    #landscapeImage{
+         width:100%
+
+    }
+    .info{
+         height: 100vh;
+         margin-top: 20%;
+    }
+    .more-info{
+         gap: 0px;
+    }
+}
